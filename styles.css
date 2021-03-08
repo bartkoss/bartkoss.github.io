@@ -10,15 +10,39 @@
     padding: 20px;
     align-content: center;
     text-transform: uppercase;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;    
+}
+.profile {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.profile img {
+    border-radius: 50%;
 }
 .text {
     color: black;
     margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .page {
     background: #dc3e21;
 }
-.centered {
+.video {
     display: flex;
     justify-content: center;
+}
+.button {
+    width: 80px;
+    height: 80px;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
