@@ -36,13 +36,21 @@
 .video {
     display: flex;
     justify-content: center;
+    width: auto;
+    height: 500px;
 }
 .button {
-    width: 80px;
-    height: 80px;
-    color: blue;
+    width: 283px;
+    height: auto;
+    color: black;
+    background-color: #fac855;
     padding: 20px;
-    text-align: center;
+    justify-content:flex-end;
     font-size: large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#container {
+    text-align: center;
+    
 }
