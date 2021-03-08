@@ -1,0 +1,24 @@
+@import "reset.css";
+.header {
+    background-color: #fac855;
+    width: 100%;
+    height: 80px;
+}
+.title {
+    color: black;
+    size: 20px;
+    padding: 20px;
+    align-content: center;
+    text-transform: uppercase;
+}
+.text {
+    color: black;
+    margin: 20px;
+}
+.page {
+    background: #dc3e21;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+}
