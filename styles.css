@@ -40,14 +40,16 @@
     height: 500px;
 }
 .button {
-    width: 283px;
+    width: 282px;
     height: auto;
     color: black;
     background-color: #fac855;
     padding: 20px;
     justify-content:flex-end;
     font-size: large;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 0px;
+    
 }
 
 #container {
