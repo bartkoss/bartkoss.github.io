@@ -48,10 +48,16 @@
     justify-content:flex-end;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-width: 0px;
-    
+    border-width: 0px;   
 }
-
 #container {
     text-align: center;
+}
+.animation {
+    animation: help 10s linear infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+@keyframes help
+{100% {transform: translateX(100%);} 
 }
