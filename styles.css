@@ -59,5 +59,8 @@
     margin: 20px;
 }
 @keyframes help
-{100% {transform: translateX(100%);} 
+{100% {transform: translateX(90px);} 
+}
+.wrapper {
+    
 }
