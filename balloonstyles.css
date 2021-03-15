@@ -1,0 +1,19 @@
+.gamearea {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+
+}
+.balloon {
+    font-size: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    animation: balloon 8s infinite;
+    margin: 20px;
+}
+@keyframes balloon {
+    100% {transform: translateY(-100%)}
+    0% {transform: translateY(100vw);} 
+}

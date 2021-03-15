@@ -53,14 +53,21 @@
 #container {
     text-align: center;
 }
+.animation-area {
+    width: 100%;
+    overflow: hidden;
+}
 .animation {
     animation: help 10s linear infinite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 20px;
 }
 @keyframes help
-{100% {transform: translateX(90px);} 
+{
+    0% {transform: translateX(-100%)}
+    100% {transform: translateX(100vw);} 
 }
-.wrapper {
-    
+.menu {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
