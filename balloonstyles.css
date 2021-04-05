@@ -24,7 +24,7 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    border: 5px dashed black;
+    border: 5px solid black;
     border-radius: 50px;
 }
 .invisible {
@@ -37,7 +37,7 @@
     position: absolute;
     left: 10px;
     top: 10px;
-    font-family: 'Lobster', cursive;    
+    font-family: 'Lobster', cursive;
 }
 
 @keyframes balloon {
