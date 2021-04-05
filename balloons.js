@@ -3,6 +3,7 @@ let gameTime = 0
 const balloons = document.getElementsByClassName("balloon")
 const balloonsPositions = []
 const balloonsSpeed = []
+const gamecompleted = document.getElementById('gamecompleted')
 let balloonsClicked = 0
 
 // set all ballons to inital state
@@ -11,7 +12,7 @@ const setupBalloons = () => {
     // loop through all balloons
     for(let index = 0; index < balloons.length; index++) {
         // set balloon to change to chickens when clicked
-        balloons[index].onclick = () => {
+        balloons[index].onmousedown = () => {
             //balloons[index].innerHTML = balloons[index].innerHTML === "🐔" ? "🎈":"🐔"
             if (balloons[index].innerHTML === "🎈") {
                 balloons[index].innerHTML = "🐔"
@@ -67,6 +68,7 @@ const step = (timestamp) => {
 
     if (balloonsClicked >= balloons.length) {
         //game complete
+        gamecompleted.classList.remove("invisible")
     } else {
         window.requestAnimationFrame(step)
     } 

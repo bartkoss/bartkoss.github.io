@@ -3,7 +3,6 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
-
 }
 .balloon {
     font-size: 50px;
@@ -13,9 +12,29 @@
     position: absolute;
     bottom: -50px;
 }
+.completed {
+    font-size: 50px;
+    color: #dc3e21;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+    background-color: #fac855;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px dashed black;
+    border-radius: 50px;
+}
+.invisible {
+    display: none;
+
+}
+
 .game-time {
     font-size: 30px;
-    color: white;
+    color: blanchedalmond;
     position: absolute;
     left: 10px;
     top: 10px;
