@@ -28,19 +28,31 @@
     border-radius: 50px;
 }
 .invisible {
-    display: none;
-
+   display:none;
 }
 
 .game-time {
-    font-size: 30px;
-    color: blanchedalmond;
+    font-size: 50px;
+    color: #fac855;
     position: absolute;
     left: 10px;
     top: 10px;
+    font-family: 'Lobster', cursive;    
 }
 
 @keyframes balloon {
     0% {bottom: -50px;}
     100% {bottom: 100vh} 
 }
+
+@media only screen and (max-width: 980px) {
+    .balloon {
+        font-size: 150px;
+    }
+    .completed {
+        padding: 50px;
+        font-size: 150px;
+        border-radius:125px;
+    }
+}
+  
