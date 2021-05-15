@@ -71,3 +71,21 @@
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.giphy {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 300px;
+    margin: 20px;
+}
+.judithprofile {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.judithprofile img {
+    border-radius: 50%;
+    block-size: 250px;
+}
